@@ -8,7 +8,17 @@
     "rules": {
         "arrow-parens": "off",
         "coma-dangle": "off",
-        "require-jsdoc": "off"
+        "require-jsdoc": "off",
+        "semi": "off",
+        "indent": "off",
+        "comma-spacing": "off",
+        "operator-linebreak": "off",
+        "quotes": "off",
+        "no-extra-semi": "off",
+        "eol-last": "off",
+        "no-trailing-spaces": "off",
+        "comma-dangle": "off",
+        "no-multi-spaces": "off",
     },
     "extends": ["eslint:recommended", "google"]
 }

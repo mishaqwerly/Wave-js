@@ -17,7 +17,7 @@ const jsLoaders = () => {
             loader: 'babel-loader',
             options: {
                 presets:["@babel/preset-env"],
-                plugins: ["@babel/plugin-syntax-class-properties"]
+                plugins: ["@babel/plugin-proposal-class-properties"],
             }
         }
     ]
